@@ -13,7 +13,7 @@ import axios from 'axios'
 
 export default {
   mounted(){
-    console.log("jjjjjjj");
+    console.log("kkkkkk");
     axios('https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-063?Authorization=CWB-B3945A19-3B00-4ED9-B55C-71D1A428BD78')
     .then(function (response) {
     console.log(response.data);
